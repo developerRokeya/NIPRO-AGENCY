@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: Lato-Medium;
+  src: url(../fonts/lato/Lato-Medium.ttf);
+}
+@font-face {
+  font-family: Lato-Semibold;
+  src: url(../fonts/lato/Lato-Semibold.ttf);
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../fonts/lato/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+/* common start */
+body {
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+/* common end */
+/* header start */
+header {
+  border: 1px solid red;
+}
+.menu ul li a {
+  color: #8e8e8e !important;
+}
+.menu ul li a:hover {
+  color: #333333 !important;
+}
+.nav_search {
+}
+.btn_search {
+  color: #8e8e8e;
+  box-shadow: none;
+}
+.btn_search:hover {
+  color: #333333 !important;
+}
+.btn_search i {
+}
+.c_dd_menu {
+  min-width: 400px;
+  padding: 5px 5px;
+}
+
+.c_dd_menu[data-bs-popper] {
+  top: 60px;
+  left: -350px;
+}
+/* header end */
+/* slider start */
+.slider {
+  background-image: url(../images/slider.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* min-height: 300px; */
+}
+.s_1 {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.ccp,
+.ccn {
+  align-items: flex-end;
+}
+.ccp span,
+.ccn span {
+  background-image: none;
+}
+.ccp {
+  color: #8e8e8e;
+}
+.ccp:hover {
+  color: #333333;
+}
+.ccn {
+  left: 70px !important;
+  color: #8e8e8e;
+}
+.ccn:hover {
+  color: #333333;
+}
+/* slider end */
+/* services start */
+.services {
+}
+.c_tittle {
+}
+.t_arrow {
+  width: 1px;
+  height: 50px;
+  background-color: black;
+  display: inline-block;
+}
+.c_h1 {
+}
+.s_services {
+  text-align: center;
+  padding: 70px 25px 40px;
+  border: 1px solid #8e8e8e;
+}
+.s_icon {
+  margin: 0 auto;
+  margin-top: -93px;
+  background-color: white;
+  width: 70px;
+}
+.s_icon i {
+  font-size: 60px;
+}
+
+/* services end */
